@@ -1,0 +1,295 @@
+body {font-family: georgia;
+font-size: 16px;}
+
+@font-face {
+    font-family: TexGyreHeros;
+    src: url("../assets/font/TexGyreHeros/texgyreherosregular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:200;
+    }
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 20px;
+}    
+h3 {
+  font-size: 18px;
+}
+/*navbar*/
+    .navbar-inverse .navbar-inner{
+    -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+        border-radius: 0px;
+        background:#282828;
+        border:none;
+    }
+    
+    .navbar-inner{
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      border-radius: 0px;
+    }
+
+    #banner {
+      float: left;
+      padding-top: 10px;
+    }
+    #bannerDecoration {
+  background-color: #bbbdbf;
+     height: 5px;
+     margin: 0;
+     padding: 0;
+    }
+    #banner p{
+  color: #bbbdbf;
+  font-size: 14px;
+  font-family: georgia;
+  font-style: italic;
+}
+
+/* page-header*/
+
+.title { font-family: "TexGyreHeros", Arial, serif; font-weight:bold; 
+font-size: 30px;
+margin-bottom: 10px;}
+.subtitle { font-family: 'TexGyreHeros', Arial, serif; font-weight: 400; 
+font-size: 24px;}
+.logo {
+  margin-bottom: 10px;
+  margin-top: 0px;
+  width: 170px;
+}
+
+
+
+/* nav2*/
+      .fixed {
+        position:fixed;
+      }
+      #nav2 {
+
+      }
+      #nav2 .navbar .navbar-inner {
+        padding: 0;
+      }
+      #nav2 .navbar .nav {
+        margin: 0;
+        display: table;
+        width: 75%;
+      }
+      #nav2 .navbar .nav li {
+        display: table-cell;
+        width: 1%;
+        float: none;
+      }
+      #nav2 .navbar .nav li a {
+        font-weight: bold;
+        text-align: center;
+        border-left: 1px solid rgba(255,255,255,.75);
+        border-right: 1px solid rgba(0,0,0,.1);
+      }
+      #nav2 .navbar .nav li:first-child a {
+        border-left: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      #nav2 .navbar .nav li:last-child a {
+        border-right: 0;
+        border-radius: 0 3px 3px 0;
+      }
+    .page-header{
+      border:none;
+      padding: 10px 0px 0px;
+      margin: 0px 0 0px;
+    }
+    .brand{
+      
+      margin-left:25px;
+      font-weight:700;
+      text-decoration:none;
+    }
+    
+    .thumbnail{
+      border:none;
+      padding:0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      border-radius: 0px;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+    
+  /* filter icons*/
+  .dropdown-menu {
+    background-color: #f2f2f2;
+  }
+  .dropdown-menu p {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .make-switch {
+    width: 250px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none !important;
+  }
+
+  #exportExecution button {width: 220px}
+
+  /* leftsideColumn*/
+.accordion-inner .btn {
+  width: 100px;
+}
+.accordion-toggle {
+ font-size: 18px;
+ font-weight: bold;
+ font-family: georgia;
+}
+
+.relatedContent h2{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+/* bodycontent*/
+
+.categoryTitle{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+iframe {
+  min-height: 420px;
+  min-width: 400px;
+  border-color: transparent;
+}
+
+img #category2:hover {
+  transform: scale(2,2); 
+}
+
+
+
+  .well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    
+    /*border: 1px solid #e3e3e3;*/
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  .nav-tabs > li > a {
+
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+  }
+
+  p{
+    text-align:justify;
+    margin-right:10px;
+  }
+  
+  .row-fluid.articles-grid .span6:nth-child(2n+1){
+    margin-left:0px;
+  } /* fixed bs margin when row-fluid grid*/
+  
+  .fixed-top{
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    display:inline-block;
+    max-width:270px;
+    background:e0e0e0;
+    barder:1px solid #dfdfdf;
+    z-index:1030;
+  }
+  
+  .tab-content .tab-pane{
+    max-height:600px;
+    position:relative;
+    overflow:auto;
+  }
+
+  footer{
+    padding-top:40px;
+    margin-top:40px;
+    border-top:1px solid #dedede;
+  }
+  .related-projects{
+    padding-top:40px;
+    margin-top:40px;
+    
+  }
+  
+  .subject{
+    padding:0 0 0px 10px;
+    border:none;
+    border-left:3px solid;
+    border-color: rgb(255, 75, 40);
+    margin:0 0 20px 10px;
+    
+  }
+  .copyright {
+    font-size: 13px;
+    line-height: 15px;
+    font-style: italic;
+    color: #535353;
+    margin-bottom: 20px;
+  }
+  
+.luguan:hover {
+  transform: scale(1.5,1.5);
+  transform-origin:0% 0%;
+  -ms-transform: scale(1.5,1.5); /* IE 9 */
+  -ms-transform-origin:0% 0%;  /*IE 9 */
+  -webkit-transform: scale(1.5,1.5);  /*Safari and Chrome*/ 
+  -webkit-transform-origin:0% 0%; /* Safari and Chrome*/ 
+}
+
+    /*************** @media *****************/
+  @media (max-width: 940px){
+  .brand {
+    display:block;
+    text-align:center;
+    font-size:26px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 940px){
+    .fixed-top{
+    max-width:300px;
+  }  
+}
+
+@media (max-width: 940px) and (min-width: 768px){
+    .fixed-top{
+    max-width:225px;
+
+  }
+}
+
+    /*************** Icon Hover ******************/
+
+  .fa-icon-save:hover{color:rgb(238,68,38);}
+    .fa-icon-envelope:hover{color:rgb(238,68,38);}
+    .fa-icon-print:hover{color:rgb(238,68,38);}
+    .fa-icon-download-alt:hover{color:rgb(238,68,38);}
+  .fa-icon-pencil:hover{color:rgb(238,68,38);}
+  .fa-icon-circle-arrow-down:hover{color:rgb(238,68,38);}

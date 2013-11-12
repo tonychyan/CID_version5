@@ -1,0 +1,26 @@
+    #account_info{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .quick_links{
+        width: 100%;
+        text-align: left;
+        margin-top: 10px;
+    }
+    .account_item{
+        width: 100%;
+        margin-left: 30px;
+        vertical-align: middle;
+    }
+    .account_title{
+        font-size: 18px;
+        font-weight: bold;
+        width: 25%;
+        position: relative;
+    }
+    .account_info{
+        font-size: 14px;
+        width: 55%;
+        position: relative;
+    }

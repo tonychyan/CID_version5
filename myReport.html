@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Color Investment Research Report System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="homepage of Color Investment Research Report System">
+    <meta name="author" content="Jun Qian">
+
+    <!-- Le styles -->
+    <link id="colors" href="assets/css/bootstrap.css" rel="stylesheet" >
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/general.css" rel="stylesheet">
+    <link href="assets/css/myreports.css" rel="stylesheet">
+    <script src="assets/css/js/jquery.js"></script>
+<!-- SOME THEMES FIX -->
+
+
+<!-- Font Awesome Icons -->
+
+<!-- GOOGLE FONT-->
+<!-- /GOOGLE FONT-->
+
+<link href="assets/css/font-awesome.min.css" rel="stylesheet"> 
+<!-- USE PREFIX fa- e.g (<i class="fa-icon-home"></i> -->
+
+<!--[if lt IE 7]>
+    <link href="assets/css/font-awesome-ie7.min.css" rel="stylesheet">
+    <![endif]-->
+    <!-- Fav and touch icons -->
+
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+<!--Tipue Search Bar-->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="tipue/tipuedrop/tipuedrop_content.js"></script>
+    <link href="tipue/tipuedrop/tipuedrop.css" rel="stylesheet">
+    <script src="tipue/tipuedrop/tipuedrop.js"></script>
+
+
+  <body>
+
+
+        <!-- PAGE-HEADER-->
+    <div class="container">
+
+      <div class="page-header">
+          <div class="row">
+            <div class="span12">
+              <div id="bannerDecoration"></div>
+              <div class="navbar navbar-inverse">
+                <div class="navbar-inner">
+                  <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  
+                    <div class="nav-collapse collapse">
+                      <div id="banner">
+                      <p class="navbar-brand">Emerging market investment research</p>
+                      </div>
+                      <ul class="nav">
+                        <li class="active"><a href="myReport.html">My Reports</a></li>
+                        <li><a href="myAccount.html">My Account</a></li>
+                        <li><a href="login.html">Log Out</a></li>
+                      </ul>
+                    </div><!--/.nav-collapse -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- /row -->  
+       
+          <div class="row">
+              <div class="span3">
+                <div class="subject">
+                   <div class="industry">Industrials</div>              
+                    <div class="subsector">Construction Equipment</div>
+                    <div class="report_date">July, 2013</div>
+                </div>
+              </div>                
+              <div class="span6">
+                <div class="title"> International Construction Equipment</div>
+                <div class="subtitle"> Continued stregnth despite economic headwinds</div>
+              </div>
+              <div class="span3">
+                <div class="logo">
+                  <a href="http://colorinvestmentresearch.com/"><img src="assets/img/logo.png" alt="logo"></a>
+                </div>
+                <div class="searchbar">
+                  <form name="search" action="search.php">
+                    <input type="text" id="tipue_drop_input" name="q" autocomplete="off">
+                  </form>
+                </div>
+              </div>               
+          </div> <!-- /row -->    
+      </div> <!-- page-header -->
+
+     <!-- Left Center and Right Columns -->
+    <div class="container">
+    <!-- Example row of columns -->
+        <div class="row-fluid">
+
+      
+        <div class="span3 hidden-phone">         
+          <div id="left-side-menu">  
+            <div class="well">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                  Report Filters
+                  <div style="font-size:25px; float: right;">
+                  <i class="fa-icon-circle-arrow-down"></i></div> 
+                </a>
+              </div>
+              <div id="collapseOne" class="accordion-body collapse in">
+                <div class="accordion-inner">
+                  <div class="btn-group-vertical">
+                  
+                    <h4>Company</h4>
+                    <button type="button" class="btn btn-default" data-toggle="button">Manitowoc</button>
+                    <button type="button" class="btn btn-default" data-toggle="button">Terex</button>
+                    <button type="button" class="btn btn-default" data-toggle="button">Caterpillar</button>
+                    <button type="button" class="btn btn-primary" data-toggle="button">All</button>
+                    <h4>Region</h4>
+                    <button type="button" class="btn btn-default" data-toggle="button">China</button>
+                    <button type="button" class="btn btn-default" data-toggle="button">Brazil</button>
+                    <button type="button" class="btn btn-default" data-toggle="button">India</button>
+                    <button type="button" class="btn btn-primary" data-toggle="button">All</button>
+                    <h4>Equipment Type</h4>
+                    <button type="button" class="btn btn-default" data-toggle="button">Type1</button>
+                    <button type="button" class="btn btn-default" data-toggle="button">Type2</button>
+                    <button type="button" class="btn btn-default" data-toggle="button">Type3</button>
+                    <button type="button" class="btn btn-primary" data-toggle="button">All</button>
+                    
+                  </div>
+                  <div class="sort">
+                    <h2 class="my_report_filter_title">Sort By</h2>      
+                    <select class="my_report_filter_sort">
+                        <option>Date Published</option>
+                        <option>Last Viewed</option>
+                        <option>Research Report</option>
+                        <option>Channel Check</option>
+                        <option>Earning Update</option>
+                    </select>
+                  </div>
+                </div>
+                 
+              </div>
+     <!-- /TABS-->
+            </div><!-- /well--> 
+          </div>      
+        </div>
+
+
+
+<div class="span9">
+      <div id= "container">
+
+      <table id="my_report">
+        <tr>
+
+        <td><a href="index.html"><div class="report_thumbnail"><img class="report_thumimg"src="assets/img/shnextended.png"><div class="report_thumbtitle">Continued stregnth despite economic headwinds</div></a>
+        <hr class="report_thumbhr">
+        <div class="report_thumbinfo">Published Date:7-7/2013<br>Region:China</div></div></td>
+
+        <td><div class="report_thumbnail_unsub"><img class="report_thumimg"src="assets/img/shnextended.png"><div class="report_thumbtitle">Construction Report</div>
+        <hr class="report_thumbhr">
+        <div class="report_thumbinfo">Published Date:7-7/2013<br>Region:China</div></div></td>
+        <td><div class="report_thumbnail"><img class="report_thumimg"src="assets/img/shnextended.png"><div class="report_thumbtitle">Construction Report</div>
+        <hr class="report_thumbhr">
+        <div class="report_thumbinfo">Published Date:7-7/2013<br>Region:China</div></div></td>
+        <td><div class="report_thumbnail"><img class="report_thumimg"src="assets/img/shnextended.png"><div class="report_thumbtitle">Construction Report</div>
+        <hr class="report_thumbhr">
+        <div class="report_thumbinfo">Published Date:7-7/2013<br>Region:China</div></div></td>
+
+        </tr>
+        <tr>
+        
+        <td><div class="report_thumbnail"><img class="report_thumimg"src="assets/img/shnextended.png"><div class="report_thumbtitle">Construction Report</div>
+        <hr class="report_thumbhr">
+        <div class="report_thumbinfo">Published Date:7-7/2013<br>Region:China</div></div></td>
+
+        <td><div class="report_thumbnail_unsub"><img class="report_thumimg"src="assets/img/shnextended.png"><div class="report_thumbtitle">Construction Report</div>
+        <hr class="report_thumbhr">
+        <div class="report_thumbinfo">Published Date:7-7/2013<br>Region:China</div></div></td>
+        <td><div class="report_thumbnail"><img class="report_thumimg"src="assets/img/shnextended.png"><div class="report_thumbtitle">Construction Report</div>
+        <hr class="report_thumbhr">
+        <div class="report_thumbinfo">Published Date:7-7/2013<br>Region:China</div></div></td>
+        <td><div class="report_thumbnail"><img class="report_thumimg"src="assets/img/shnextended.png"><div class="report_thumbtitle">Construction Report</div>
+        <hr class="report_thumbhr">
+        <div class="report_thumbinfo">Published Date:7-7/2013<br>Region:China</div></div></td>
+
+        </tr>
+
+        <tr>
+        
+        <td><div class="report_thumbnail"><img class="report_thumimg"src="assets/img/shnextended.png"><div class="report_thumbtitle">Construction Report</div>
+        <hr class="report_thumbhr">
+        <div class="report_thumbinfo">Published Date:7-7/2013<br>Region:China</div></div></td>
+
+        <td><div class="report_thumbnail_unsub"><img class="report_thumimg"src="assets/img/shnextended.png"><div class="report_thumbtitle">Construction Report</div>
+        <hr class="report_thumbhr">
+        <div class="report_thumbinfo">Published Date:7-7/2013<br>Region:China</div></div></td>
+        <td><div class="report_thumbnail"><img class="report_thumimg"src="assets/img/shnextended.png"><div class="report_thumbtitle">Construction Report</div>
+        <hr class="report_thumbhr">
+        <div class="report_thumbinfo">Published Date:7-7/2013<br>Region:China</div></div></td>
+        <td><div class="report_thumbnail"><img class="report_thumimg"src="assets/img/shnextended.png"><div class="report_thumbtitle">Construction Report</div>
+        <hr class="report_thumbhr">
+        <div class="report_thumbinfo">Published Date:7-7/2013<br>Region:China</div></div></td>
+
+        </tr>
+        </table>
+
+
+        <div class="pagination">
+          <ul>
+            <li><a href="#">Prev</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">Next</a></li>
+          </ul>
+        </div>
+
+               
+         <!-- INNER ROW-->
+
+
+          <!-- FOOTER-->
+          <footer class="row-fluid">
+                <div class="span3">
+                  <h4 class="line3 center standart-h4title"><span>Navigation</span></h4>
+                  <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">project</a></li>
+                    <li><a href="#">Elements</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                  </ul>
+                </div>
+              
+              <div class="span3">
+                  <h4 class="line3 center standart-h4title"><span>Useful Links</span></h4>
+                  <ul class="footer-links">
+                    <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+                    <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+                   <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+                   <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+                   <li><a href="http://www.bootstraptor.com">Bootstrap templates</a></li>
+                  </ul>
+              </div> 
+              
+            <div class="span3">
+                  <h4 class="line3 center standart-h4title"><span>Useful Links</span></h4>
+                  <ul class="footer-links">
+                    <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+                    <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+                <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+                   <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+                   <li><a href="http://www.bootstraptor.com">Bootstrap templates</a></li>
+                  </ul>
+              </div>
+            
+              <div class="span3">
+                <h4 class="line3 center standart-h4title"><span>Our office</span></h4>
+                  <address>
+                    <strong>bootstraptor.com, LLC.</strong><br>
+                    <i class="fa-icon-map-marker"></i> 795 Folsom Ave, Suite 600<br>
+                    San Francisco, CA 94107<br>
+                    <i class="fa-icon-phone-sign"></i> + 4 (123) 456-7890
+                  </address>
+              </div>
+            
+          <div>
+                  <div class="copyright">
+                      © Color Investment Research. All Rights Reserved.        
+                  </div>
+          </div>
+              
+          </footer>
+
+      </div>
+    </div>
+
+
+
+<!-- /CONTENT SIDE-->
+    </div>
+</div> <!-- /container -->
+
+</body>
+</html>

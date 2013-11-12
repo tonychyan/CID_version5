@@ -1,0 +1,66 @@
+body {font-family: georgia;
+font-size: 16px;}
+
+@font-face {
+    font-family: TexGyreHeros;
+    src: url("../assets/font/TexGyreHeros/texgyreherosregular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:200;
+    }
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 20px;
+}    
+h3 {
+  font-size: 18px;
+}
+/*navbar*/
+    .navbar-inverse .navbar-inner{
+    -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+        border-radius: 0px;
+        background:#282828;
+        border:none;
+    }
+    
+    .navbar-inner{
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      border-radius: 0px;
+    }
+
+    #banner {
+      float: left;
+      padding-top: 10px;
+    }
+    #bannerDecoration {
+  background-color: #bbbdbf;
+     height: 5px;
+     margin: 0;
+     padding: 0;
+    }
+    #banner p{
+  color: #bbbdbf;
+  font-size: 14px;
+  font-family: georgia;
+  font-style: italic;
+}
+
+/* page-header*/
+
+.title { font-family: "TexGyreHeros", Arial, serif; font-weight:bold; 
+font-size: 30px;
+margin-bottom: 10px;}
+.subtitle { font-family: 'TexGyreHeros', Arial, serif; font-weight: 400; 
+font-size: 24px;}
+.logo {
+  margin-bottom: 10px;
+  margin-top: 0px;
+  width: 170px;
+}
